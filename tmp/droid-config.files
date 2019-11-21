@@ -48,9 +48,15 @@
 /lib/udev/rules.d/998-droid-system.rules
 /lib/systemd/system/droid-hal-init.service
 /lib/systemd/system/adbd.service
+/lib/systemd/system/system_root.mount
 /lib/systemd/system/adbd-prepare.service
+/lib/systemd/system/local-fs.target.wants/system_root.mount
+/lib/systemd/system/local-fs.target.wants/vendor.mount
+/lib/systemd/system/local-fs.target.wants/system.mount
+/lib/systemd/system/vendor.mount
 /lib/systemd/system/droid-late-start.service
 /lib/systemd/system/graphical.target.wants/droid-hal-init.service
 /lib/systemd/system/graphical.target.wants/droid-late-start.service
 /lib/systemd/system/actdead.target.wants/droid-hal-init.service
+/lib/systemd/system/system.mount
 /var/lib/environment/compositor/droid-hal-device.conf
